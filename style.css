@@ -38,18 +38,19 @@ section {
 }
 
 
-
 #name {
     padding: 30px;
     width: 50%;
     font-size: 18px;
     border-radius: 10px;
     border-style: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 #title {
     display: flex;
     justify-content: center;
+    font-size: 21px;
     gap: 6px;
 }
 
@@ -57,39 +58,43 @@ img {
     width: 10%;
     display: block;
 }
-
 #btn-finder {
-    margin-bottom: 3%;
-    color: rgb(242, 242, 242);
+    margin-bottom: 20px;
+    color: #f2f2f2;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    display: block;
-    padding: 10px;
-    width: 40%;
+    padding: 12px;
+    width: 90%;
+    max-width: 400px;
     background-color: #545454;
-    border: 12px 0px 0px white;
     border-radius: 10px;
-    border-style: none;
+    border: none;
+    transition: 0.3s ease;
+}
+
+#btn-finder:hover {
+    background-color: #6a6a6a;
+    transform: scale(1.02);
 }
 
 
 #card {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     padding: 40px;
-    border: none;
     border-radius: 12px;
     margin-top: 5%;
+    margin-bottom: 20%;
     background-color: #141414;
-    width: 40%;
+    width: 90%;
+    max-width: 500px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
 #img-avatar {
-    width: 50%;
+    width: 100%;
+    max-width: 200px;
     border-radius: 12px;
 }
-
